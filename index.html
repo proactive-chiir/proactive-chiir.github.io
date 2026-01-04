@@ -26,29 +26,43 @@
       padding: 0;
       min-height: 100vh;
     }
+    .header {
+      margin: 0;
+      padding-left: 0;
+      padding-right: 0;
+    }
     header {
         text-align: center;
-        padding: 20px 0;
-        background-color: #fff;
-        color: #000;
-        border-bottom: 1px solid #ddd;
+        padding: 30px 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: #e0e0e0;
+        border-bottom: none;
+        border-radius: 0;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin: 0;
+        width: 100%;
     }
     header h1 {
         font-weight: 600;
         margin: 0;
         font-size: 24px;
-        color: #000;
+        color: #e0e0e0;
     }
     header h1 a {
-      color: #000;
+      color: #e0e0e0;
     }
     header p {
         font-size: 16px;
         margin-top: 5px;
-        color: #666;
+        color: #e0e0e0;
     }
     .list-inline-item a {
-      color: #000;
+      color: #e0e0e0;
+      transition: color 0.3s ease;
+    }
+    .list-inline-item a:hover {
+      color: #fff;
+      text-decoration: underline;
     }
     .list-inline-item a:hover {
         text-decoration: underline;
